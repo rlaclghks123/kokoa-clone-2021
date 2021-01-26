@@ -1,0 +1,17 @@
+:root {
+  --yellow: #fae100;
+}
+
+:root {
+  --horizontal-space: 25px;
+}
+
+:root {
+  --kakao-border: 1px solid rgba(0, 0, 0, 0.1);
+}
+:root {
+  --kakao-grey: rgba(0, 0, 0, 0.4);
+}
+:root {
+  --kakao-red: #f25c48;
+}

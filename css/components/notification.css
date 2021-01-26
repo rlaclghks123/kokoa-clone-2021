@@ -1,0 +1,31 @@
+.nav-commit__notification {
+  left: 15px;
+  bottom: 13px;
+  position: absolute;
+}
+.nav-ellipsis__notification {
+  background-color: #f25c48;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 32px;
+}
+.Find-cog-notification {
+  background-color: #f25c48;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 47px;
+  bottom: 18px;
+}
+.icon-row__notification {
+  background-color: #f25c48;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 42px;
+  bottom: 46px;
+}
