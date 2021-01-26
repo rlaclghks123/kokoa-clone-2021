@@ -1,7 +1,13 @@
+#main-body {
+  position: relative;
+}
 .status-bar {
+  top: 0;
   display: flex;
   justify-content: center;
   padding: 3px 3px;
+  position: fixed;
+  width: 100%;
 }
 
 .status-bar__column {

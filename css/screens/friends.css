@@ -1,5 +1,6 @@
 .main-screen {
   margin-top: 10px;
+  padding-top: 10px;
 }
 #friends-display-link {
   text-align: center;
@@ -29,4 +30,26 @@
   margin-bottom: 30px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
+}
+@keyframes hidenscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.splash-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  animation: hidenscreen 0.2s ease-in-out forwards;
+  animation-delay: 2s;
 }

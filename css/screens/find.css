@@ -16,7 +16,7 @@ html {
 .recommended-friends div {
   text-align: center;
   color: var(--kakao-grey);
-  margin: 80px 0px;
+  margin: 85px 0px;
 }
 .open-chat__header {
   display: flex;

@@ -1,7 +1,29 @@
+@keyframes spinnotification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+.badge {
+  background-color: #f25c48;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
 .nav-commit__notification {
   left: 15px;
   bottom: 13px;
   position: absolute;
+  animation: spinnotification 3s ease-in-out infinite;
 }
 .nav-ellipsis__notification {
   background-color: #f25c48;
@@ -28,4 +50,18 @@
   position: absolute;
   left: 42px;
   bottom: 46px;
+}
+.settings__notification {
+  background-color: #f25c48;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: -28px;
+  top: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
 }
