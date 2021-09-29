@@ -125,7 +125,8 @@ table {
 input:focus {
   outline: none;
 }
-a:focus,
+a,
+i:focus,
 :visited,
 :hover,
 :active {
