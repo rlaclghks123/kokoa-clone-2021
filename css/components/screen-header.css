@@ -2,7 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 1;
+  margin: 5px;
+  top: 20px;
 }
 .screen-header-title {
   font-size: 25px;
@@ -11,4 +18,17 @@
 }
 .screen-header-icons i {
   margin-left: 15px;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header-icons .fa-cog:hover {
+  animation: rotateCog 1s linear infinite;
 }

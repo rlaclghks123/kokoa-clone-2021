@@ -1,0 +1,27 @@
+.index-kakao {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  z-index: 3;
+  animation: hide 5s ease-in-out forwards;
+}
+.index-kakao i {
+  font-size: 100px;
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

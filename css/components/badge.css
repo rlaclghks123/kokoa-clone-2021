@@ -19,3 +19,11 @@
   left: 30px;
   bottom: 25px;
 }
+.setting-badge {
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  font-size: 7px;
+  padding: 5px;
+  margin-left: 15px;
+}

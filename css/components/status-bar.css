@@ -1,8 +1,14 @@
 .status-bar {
   display: flex;
   align-items: center;
-  margin: 10px;
+  padding: 5px;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  background-color: white;
+  z-index: 2;
 }
 .status-bar__column {
   width: 33%;
@@ -22,4 +28,9 @@
 }
 .status-bar__column:last-child i {
   margin-right: 5px;
+}
+.status-bar__column:focus,
+:visited,
+:hover {
+  color: inherit;
 }

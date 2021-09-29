@@ -1,0 +1,31 @@
+.setting-header {
+  font-weight: 400;
+}
+.setting-header i {
+  font-size: 25px;
+}
+.settings {
+  font-size: 20px;
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.settings-setting {
+  margin: 15px 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+}
+.settings-setting:nth-child(3) {
+  border-bottom: none;
+}
+.settings-border {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: -5px -30px;
+  margin-bottom: 15px;
+}
+.settings-setting i {
+  margin-right: 25px;
+}

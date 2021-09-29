@@ -1,0 +1,13 @@
+.chat-screen {
+  height: 1000px;
+  margin-top: 100px;
+}
+.chat-screen a {
+  text-decoration: none;
+}
+.chat-screen a:visited,
+:active,
+:hover,
+:focus {
+  color: none;
+}

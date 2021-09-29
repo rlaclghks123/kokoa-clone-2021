@@ -1,5 +1,6 @@
 .find-screen {
   height: 120vh;
+  margin-top: 100px;
 }
 
 .screen-header-icons span:last-child {
@@ -18,7 +19,7 @@
 }
 .recommended-friends__content {
   color: rgba(0, 0, 0, 0.3);
-  padding: 80px 0px;
+  padding: 90px 0px;
   text-align: center;
 }
 .open-chat__header {
@@ -44,6 +45,7 @@
 }
 .open-post h5 {
   font-weight: 600;
+  text-transform: uppercase;
 }
 .open-post__members {
   display: flex;
@@ -91,4 +93,24 @@
 }
 .open-post__heart i {
   margin-right: 3px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }

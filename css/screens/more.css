@@ -1,0 +1,47 @@
+.user-component__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-component__phone i {
+  margin-left: 5px;
+  color: tomato;
+  opacity: 1;
+}
+.icon-row {
+  margin: 0px 20px;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.suggestions {
+  border-top: 1px solid var(--main-grey);
+}
+.suggestions-title {
+  display: block;
+  margin-top: 25px;
+}
+.suggestions-icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.suggestions__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 10px;
+  margin: 10px 25px;
+}
+.suggestions__icons {
+  font-size: 35px;
+}
+.suggestions__icons span {
+  opacity: 0.6;
+  font-size: 15px;
+}
+.suggestions__icons img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
