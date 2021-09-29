@@ -125,3 +125,9 @@ table {
 input:focus {
   outline: none;
 }
+a:focus,
+:visited,
+:hover,
+:active {
+  color: none;
+}
