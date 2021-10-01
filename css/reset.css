@@ -129,6 +129,7 @@ a,
 i:focus,
 :visited,
 :hover,
-:active {
-  color: none;
+:active,
+:link {
+  color: black;
 }
