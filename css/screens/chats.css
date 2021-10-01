@@ -11,3 +11,9 @@
 :focus {
   color: none;
 }
+.states:active,
+:visited,
+:hover,
+:focus {
+  color: none;
+}
